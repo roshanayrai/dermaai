@@ -13,7 +13,8 @@ function App() {
                 <li><a href="#skin-identification">Skin Identification</a></li>
                 <li><a href="#ingredient-analysis">Ingredient Analysis</a></li>
                 <li><a href="#dermatologist-recommendation">Dermatologist Recommendation</a></li>
-              </ul>
+                <li><a href="#skin-identification">Product Reommendation</a></li>
+        </ul>
             </nav>
             <div className="Header-account">
               <a href="#account" className="Header-account-icon">

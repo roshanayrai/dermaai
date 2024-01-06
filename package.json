@@ -13,8 +13,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "ios": "react-native run-ios",
-    "android": "react-native run-android",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,5 +1,10 @@
 import './App.css';
-import homepage from './pages/homepage';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import About from "./pages/homepage";
 function App() {
     return (
       <div className="App">
@@ -10,7 +15,9 @@ function App() {
             </div>
             <nav className="Header-nav">
               <ul>
-                <li><Link to ="/homepage">Skin Identification</></li>
+                <Router>
+                <Routes>
+              <Route path="/homepage" element={<About />} />Homepage</Routes></Router>
                 <li><a href="#ingredient-analysis">Ingredient Analysis</a></li>
                 <li><a href="#dermatologist-recommendation">Dermatologist Recommendation</a></li>
                 <li><a href="#skin-identification">Product Reommendation</a></li>

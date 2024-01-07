@@ -1,6 +1,9 @@
 .navbar {
     background-color: #C6E9B2;
   }
+.nav-bar h1{
+  color:#352F1A;
+}
 .navbar-container{
     display: flex;
     justify-content: center;
@@ -31,12 +34,12 @@
 
 .mainmenu a {
   display: flex;
-  color: green;
+  color: #352F1A;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .mainmenu a:hover {
-  color: black;
+  color: green;
 }

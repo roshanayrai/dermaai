@@ -1,14 +1,15 @@
 import React from 'react';
 import "./Navbar.css"
+import {Link} from 'react-router-dom';
 
 const Navbar = () =>{
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h1>DERMA AI</h1>
+          <Link to="/Homepage" className='logo-link'><h1>DERMA AI</h1></Link>
           <div className="signin">
-           <img className="signinimg" src="signin.png" /></div>
+           <Link to="/Login"><img className="signinimg" src="signin.png" /></Link></div>
         </div>
       </div>
       <div className="mainmenu">

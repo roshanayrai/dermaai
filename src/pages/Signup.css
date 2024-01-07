@@ -1,44 +1,82 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color:aliceblue;
+  background-color:#E1F2E5;
+  font-family: sans-serif;
  }
- 
- .App {
+ .signuptext {
   text-align: center;
   padding: 50px;
+  color: #42553A;
+  font-family: sans-serif;
  }
- 
- .login {
+ .signup{
+  margin-bottom: 40px;
+ }
+ .signup-container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
   width: 500px;
-  height: 600px;
+  height: 100%; /* Use min-height instead of height */
   margin: 0 auto;
-  background-color: #A9BA9D;
- }
- .login-container {
-  width: 400px;
-  margin: 0 auto;
+  background-color: #9EBCA1;
+  align-items: center; /* Vertically center the content */
  }
  
- .login-container label {
-  display: block;
-  text-align: left;
-  margin-bottom: 5px;
- }
- 
- .login-container input {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 15px;
- }
- 
- .login-container button {
-  width: 96%;
+ .signup-container button {
+  width: 50%;
   padding: 10px;
   background-color: #234F1E;
   color: white;
-  font-family: poppins;
-  font-size:large;
-  border: none;
-  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
  }
+
+
+.input-group {
+  display: flex;
+  flex-direction: column;
  
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.fname,
+.lname,
+.email,
+.password,
+.cno,
+.cnfrmpass {
+  width: 90%;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.fname,
+.lname {
+  width: 80%;
+  margin-right: 100px; 
+}
+.email,
+.cno {
+  width: 80%;
+  margin-right: 100px; 
+}
+.password,
+.cnfrmpass {
+  width: 80%;
+  margin-right: 100px; 
+}
+.section1 {
+  display: flex;
+  padding: 10px;
+  height: 50px;
+  background-color: #9ebca1;
+  justify-content: center;
+  margin: 0 auto;
+}

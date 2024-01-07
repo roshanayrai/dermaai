@@ -1,6 +1,10 @@
 .navbar {
     background-color: #C6E9B2;
   }
+  .logo-link {
+    text-decoration: none;
+    color: inherit; /* Use the color you want for the link text */
+  }
 .nav-bar h1{
   color:#352F1A;
 }

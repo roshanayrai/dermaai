@@ -1,9 +1,11 @@
 import React from 'react';
 import "./Homepage.css"
-
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 const Homepage = () =>{
     return(
         <>
+        <div className='Homepage'><Navbar></Navbar></div>
         <div className="section1">
          <div className='section1text'>
             <h1>Get answers to your skin condition questions with DermaAI</h1>
@@ -97,6 +99,7 @@ const Homepage = () =>{
         <img className='section8img4' src="section8img4.png" />
     </div>
 </div>
+<Footer></Footer>
         </div>
         </>
     );

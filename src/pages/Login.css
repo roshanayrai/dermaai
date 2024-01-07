@@ -1,33 +1,32 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color:aliceblue;
+  background-color:#E1F2E5;
+  font-family: sans-serif;
  }
- 
- .App {
+ .logintext {
   text-align: center;
   padding: 50px;
- }
- .login {
-  width: 500px;
-  height: 330px;
-  margin: 0 auto;
-  background-color: #A9BA9D;
+  color: #42553A;
+  font-family: sans-serif;
  }
  .login-container {
-  width: 400px;
+
+  width: 350px;
   margin: 0 auto;
+  text-align: center;
+    padding: 40px;
+  border-radius: 15px;
+  justify-content: center;
+  width: 500px;
+  height: 100%; /* Use min-height instead of height */
+  margin: 0 auto;
+  background-color: #9EBCA1;
+  align-items: center; /* Vertically center the content */
  }
- 
  .login-container label {
   display: block;
   text-align: left;
   margin-bottom: 5px;
- }
- 
- .login-container input {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 15px;
+  font-family: sans-serif;
  }
  
  .login-container button {
@@ -35,16 +34,14 @@ body {
   padding: 10px;
   background-color: #234F1E;
   color: white;
-  font-family: poppins;
-  font-size:large;
-  border: none;
-  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
  }
- 
- .tools-container, .footer-container {
-  margin-top: 50px;
- }
- 
- .tools-container button, .footer-container h3 {
-  margin: 0 10px;
- }
+
+.email,
+.password {
+  width: 90%;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}

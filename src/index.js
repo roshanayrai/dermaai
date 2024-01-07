@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Homepage from './pages/Homepage';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -19,6 +21,16 @@ const router = createBrowserRouter([
   {
     path:"Homepage",
     element: < Homepage/>,
+  },
+  ,
+  {
+    path:"Login",
+    element: < Login/>,
+  }
+  ,
+  {
+    path:"Signup",
+    element: <Signup/>,
   }
 ]);
 

@@ -18,6 +18,7 @@ function App() {
           <br></br>
           <br></br>
           <button type="submit">Sign In</button>
+          <h3>Don't have an account then<button>SignUp</button></h3>
         </form>
       </div>
 

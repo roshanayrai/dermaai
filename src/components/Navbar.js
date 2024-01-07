@@ -7,18 +7,20 @@ const Navbar = () =>{
         <div className="navbar-logo">
           <h1>DERMA AI</h1>
           <div className="signin">
-            <img src="signin.png" />
-          </div>
+           <a href=""><img className="signinimg" src="signin.png" /></a></div>
         </div>
-    <ul class="navbarmenu">
-      <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </div>
+      <div className="mainmenu">
+      <ul>
+        <li><a href="#home">About Us</a></li>
+        <li><a href="#about">Tools</a></li>
+        <li><a href="#services">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
       </div>
     </nav>
-  );
-};
+ 
+  )};
+
 
 export default Navbar;

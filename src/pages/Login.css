@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:aliceblue;
+ }
+ 
+ .App {
+  text-align: center;
+  padding: 50px;
+ }
+ .login {
+  width: 500px;
+  height: 330px;
+  margin: 0 auto;
+  background-color: #A9BA9D;
+ }
+ .login-container {
+  width: 400px;
+  margin: 0 auto;
+ }
+ 
+ .login-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+ }
+ 
+ .login-container input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+ }
+ 
+ .login-container button {
+  width: 96%;
+  padding: 10px;
+  background-color: #234F1E;
+  color: white;
+  font-family: poppins;
+  font-size:large;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ .tools-container, .footer-container {
+  margin-top: 50px;
+ }
+ 
+ .tools-container button, .footer-container h3 {
+  margin: 0 10px;
+ }

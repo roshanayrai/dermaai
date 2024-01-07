@@ -1,8 +1,10 @@
 import './App.css';
+import Navbar from "./components/Navbar";
 function App() {
     return (
       <div className="App">
         <header className="App-header">
+            <Navbar></Navbar>
           <div className="Header-container">
             <div className="Header-logo">
               <h1 className="App-name">DERMA AI</h1>

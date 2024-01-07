@@ -3,7 +3,7 @@ import './Login.css';
 
 function Login() {
  return (
-    <div className="App">  
+    <div className="Loginpage">  
       <h1>Sign In to Your Account</h1>
       <h3>Enter required details to proceed</h3>
       <div className="login">

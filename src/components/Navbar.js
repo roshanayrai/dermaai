@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.css"
+
 const Navbar = () =>{
   return (
     <nav className="navbar">
@@ -7,7 +8,7 @@ const Navbar = () =>{
         <div className="navbar-logo">
           <h1>DERMA AI</h1>
           <div className="signin">
-           <a href=""><img className="signinimg" src="signin.png" /></a></div>
+           <img className="signinimg" src="signin.png" /></div>
         </div>
       </div>
       <div className="mainmenu">

@@ -1,3 +1,51 @@
 .footer {
     background: url('C:\Users\dell\dermaai\public\footer.png') center/cover;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.subscribe {
+    margin-top: 10px; /* Adjust spacing as needed */
+}
+
+.copyright p {
+    margin-top: 20px; /* Adjust spacing as needed */
+    text-align: center;
+    font-size: 14px;
+}
+
+.social-icons img {
+    width: 20px; /* Adjust the size of social icons as needed */
+    margin: 0 5px; /* Adjust spacing between icons */
+    margin-top: 30px;
+}
+
+/* Add these styles for the subscribe form input */
+
+.subscribe form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.subscribe button {
+    background-color: #9EBCA1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.subscribe button:hover {
+    background-color: #45a049;
 }

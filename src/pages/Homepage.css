@@ -117,3 +117,17 @@
     font-size: 20px;
     padding: 20px;
 }
+.section8{
+    background-color: #D9FED3;
+    height: 650px;
+    justify-content: center;
+    text-align: center;
+}
+.instagramfeed{
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+.section8 h1{
+    padding-top:80px;
+}

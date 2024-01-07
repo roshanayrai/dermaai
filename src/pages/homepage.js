@@ -87,7 +87,15 @@ const Homepage = () =>{
         </div>
     </div>
 </div>
-
+    <div className='section8'>
+        <h1>FOLLOW US ON GRAM</h1>
+    <div className='instagramfeed'>
+        <img className='section8img1' src="section8img1.png" />
+        <img className='section8img2' src="section8img2.png"  />
+        <img className='section8img3' src="section8img3.png" />
+        <img className='section8img4' src="section8img4.png" />
+    </div>
+</div>
         </div>
         </>
     );

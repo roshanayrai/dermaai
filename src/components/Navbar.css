@@ -13,6 +13,9 @@
     justify-content: center;
     height: 80px;
 }
+.signin{
+  position: fixed;
+}
 .signinimg {
     width: 40px; 
     height: 40px; 
@@ -21,7 +24,10 @@
     top: 0;
     padding: 30px;
   }
-
+.mainmenu{
+  outline: 2px solid green;
+  
+}
 .mainmenu ul{
   display: flex;
   list-style-type: none;

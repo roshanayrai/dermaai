@@ -11,12 +11,10 @@ body {
  .login-container {
 
   width: 350px;
-  margin: 0 auto;
   text-align: center;
-    padding: 40px;
+  padding: 40px;
   border-radius: 15px;
   justify-content: center;
-  width: 500px;
   height: 100%; /* Use min-height instead of height */
   margin: 0 auto;
   background-color: #9EBCA1;
@@ -44,4 +42,5 @@ body {
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 15px;
+  justify-content: center;
 }

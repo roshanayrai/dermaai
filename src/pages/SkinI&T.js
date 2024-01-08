@@ -1,7 +1,7 @@
 import React from 'react';
 import './Ingredient.css';
 
-function SkinI&T() {
+function SkinIT() {
  return (
     <div className="App">
       <h1>Skin Issue Identification Tool</h1>
@@ -66,4 +66,4 @@ function SkinI&T() {
  );
 }
 
-export default SkinI&T;
+export default SkinIT;

@@ -1,9 +1,61 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './SkinProfileCreation.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 function SkinProfileCreation() {
+    useEffect(() => {
+        const setupEventListeners = () => {
+            const stepMenuOne = document.querySelector('.step-menu1');
+            const stepMenuTwo = document.querySelector('.step-menu2');
+            const stepMenuThree = document.querySelector('.step-menu3');
+
+            const stepOne = document.querySelector('.form-step-1');
+            const stepTwo = document.querySelector('.form-step-2');
+            const stepThree = document.querySelector('.form-step-3');
+
+            const formSubmitBtn = document.querySelector('.btn');
+
+            const handleNext = () => {
+                if (stepMenuOne.classList.contains('active')) {
+                    stepMenuOne.classList.remove('active');
+                    stepMenuOne.classList.add('completed');
+                    stepMenuTwo.classList.add('active');
+
+                    stepOne.classList.remove('active');
+                    stepTwo.classList.add('active');
+                    window.scrollTo(0, 0);
+                } else if (stepMenuTwo.classList.contains('active')) {
+                    stepMenuTwo.classList.remove('active');
+                    stepMenuTwo.classList.add('completed');
+                    stepMenuThree.classList.add('active');
+
+                    stepTwo.classList.remove('active');
+                    stepThree.classList.add('active');
+
+                    formSubmitBtn.textContent = 'Submit';
+                    window.scrollTo(0, 0);
+                } else if (stepMenuThree.classList.contains('active')) {
+                    document.querySelector('form').submit();
+                }
+            };
+
+            formSubmitBtn.addEventListener("click", (event) => {
+                event.preventDefault();
+                handleNext();
+            });
+        };
+
+        // Run setupEventListeners when the component mounts
+        setupEventListeners();
+
+        // Cleanup event listeners when component unmounts
+        return () => {
+            const formSubmitBtn = document.querySelector('.btn');
+            formSubmitBtn.removeEventListener("click", setupEventListeners);
+        };
+    }, []);
+
     return (
         <div>
             <Navbar></Navbar>
@@ -117,12 +169,11 @@ function SkinProfileCreation() {
                         <button className="btn">Next</button>
                     </div>
                 </div>
-
-            </form>
+                </form>
             </div>
-            <Footer></Footer>
+            <Footer />
         </div>
     );
-   }
-   
+}
+
 export default SkinProfileCreation;   

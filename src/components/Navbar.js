@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div className='nav'>
-      <Link to='/Homepage'><img src="logo.png" className="logo" alt="Logo" /></Link>
+      <Link to='/'><img src="logo.png" className="logo" alt="Logo" /></Link>
       <ul className='menu'>
         <li><a href="#">About Us</a></li>
         <div className="dropdown">
@@ -30,7 +30,7 @@ const Navbar = () => {
         <li><a href="#">News/Blogs</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
-      <Link to="/Login"><img src="pficon.png" className="pficon" alt="Profile" /></Link>
+      <Link to="/login"><img src="pficon.png" className="pficon" alt="Profile" /></Link>
 
       <div className="sub-menu-wrap" id="subMenu">
         <div className="sub-menu">

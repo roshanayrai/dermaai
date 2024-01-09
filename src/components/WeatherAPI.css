@@ -1,0 +1,43 @@
+
+.WeatherAPI input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+.WeatherAPI button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #87A878;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+    .WeatherAPI button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Center the button */
+  .WeatherAPI div {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 20px; /* Adjust the top margin as needed */
+    justify-content: center;
+  }
+ .WeatherAPI
+{
+    margin-top: 100px;
+    justify-content: center;
+    margin-left: 550px;
+}
+    .WeatherAPI p {
+    color: black;
+    margin-top: 10px;
+  }
+  
+   .WeatherAPI h3 {
+    margin-top: 10px;
+  }
+  

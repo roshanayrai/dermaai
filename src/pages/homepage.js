@@ -21,6 +21,7 @@ const Homepage = () =>{
          </div>
          <div className="registernow"><button className="button">Register Now</button></div>
          </div>
+        
         <div className="section3">
         <div className='section3img'>
          <img src="homepage2.png" />
@@ -31,6 +32,7 @@ const Homepage = () =>{
             <div className="registernow"><button className="button"> Check it out</button></div>
          </div>
          </div>
+         
          <div className="section4">
          <div className='section4text'>
             <h1>UNSURE IF YOUR PRODUCT IS RIGHT FOR YOU?</h1>

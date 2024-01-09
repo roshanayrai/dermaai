@@ -1,8 +1,16 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: -600px;
+  }
+  
   .section1 {
     background-color: #E1F2E5;
     height: 600px;
     display: flex;
-  }  
+    
+  }
+
   .section1text {
     width: 50%;
     padding: 50px;
@@ -26,13 +34,14 @@
     background-color: #87A878;
     height: 600px;
     text-align: center;
+    margin-top: 600px; 
   }
   
   .section2text {
     padding: 100px;
   }
   
-.button {
+  .button {
     padding: 10px 20px;
     font-size: 16px;
     text-align: center;
@@ -42,11 +51,13 @@
     justify-content: center;
     border-radius: 15px;
     background-color: #87A878;
-}
-.button:hover {
+  }
+  
+  .button:hover {
     background-color: #352F1A;
     color: white;
-}
+  }
+  
 .section3{
     background-color: #CEE3B4;
     height: 600px;

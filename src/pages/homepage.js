@@ -2,27 +2,33 @@ import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import "./Homepage.css"
 import Navbar from '../components/Navbar';
+import Signup from './Signup';
 import Footer from '../components/Footer';
-
+import {Link} from 'react-router-dom';
+import Ingredient from '../pages/Ingredient';
+import SkinIT from '../pages/SkinI&T';
+import Weather from '../pages/Weather';
 const Homepage = () =>{
     return(
         <>
-        <div className='Homepage'><Navbar></Navbar></div>
-        <div className="section1">
+        <div className='Homepage'>
+            <Navbar></Navbar>
+            
+         <div className='container'>
          <div className='section1text'>
             <h1>Get answers to your skin condition questions with DermaAI</h1>
             <p>Aysa is the easy-to-use app for concerns about common skin conditions. Powered by VisualDx, Aysa provides personalized guidance and helpful information to aid in your discussion with your healthcare provider.</p>
          </div>
          <div className='section1img'><img src="homepage1.png" />
          </div>
-        </div>
+        </div> 
         <div className="section2">
          <div className='section2text'>
             <h1>Are you a part of our community yet? Join today and use our AI Skin tools without a hitch.</h1>
          </div>
-         <div className="registernow"><button className="button">Register Now</button></div>
+         <div className="registernow"><Link to ="/Signup"><button className="button">Register Now</button></Link></div>
          </div>
-         
+        
         <div className="section3">
         <div className='section3img'>
          <img src="homepage2.png" />
@@ -30,7 +36,7 @@ const Homepage = () =>{
          <div className='section3text'>
             <h1>We bring you the top-notch Skin Issue Identification tool!</h1>
             <p>Get to know your skin better with our advanced Skin Issue Identification tool! Learn more about your skin concerns.</p>
-            <div className="registernow"><button className="button"> Check it out</button></div>
+            <div className="registernow"><Link to ="/SkinIT"><button className="button"> Check it out</button></Link></div>
          </div>
          </div>
          
@@ -38,7 +44,7 @@ const Homepage = () =>{
          <div className='section4text'>
             <h1>UNSURE IF YOUR PRODUCT IS RIGHT FOR YOU?</h1>
             <p>Use our Ingredient Analysis tool and find out an in-depth analysis. No more uncertainty about what goes on to your face!</p>
-            <div className="registernow"><button className="button"> Check it out</button></div>
+            <div className="registernow"><Link to ="/Ingredient"><button className="button"> Check it out</button></Link></div>
          </div>
          <div >
          <img  className='section4img' src="homepage3.png" />
@@ -48,7 +54,7 @@ const Homepage = () =>{
          <div className='section5text'>
             <h1>CONFUSED ABOUT WHAT PRODUCTS ARE RIGHT FOR YOU?</h1>
             <p>Integrated within our Skin Issue Identification tool, our top-notch recommendation system gives you the best products for your skin. Affordability, Accessibility, and Effectiveness all in one place!</p>
-            <div className="registernow"><button className="button"> Ingredient Analysis</button></div>
+            <div className="registernow"><Link to ="/Ingredient"><button className="button">Ingredient Analysis</button></Link></div>
          </div>
          <div >
          <img  className='section5img' src="homepage4.png" />
@@ -101,7 +107,7 @@ const Homepage = () =>{
         <img className='section8img3' src="section8img3.png" />
         <img className='section8img4' src="section8img4.png" />
     </div>
-</div>
+</div></div>
 <Footer></Footer>
         </div>
         </>

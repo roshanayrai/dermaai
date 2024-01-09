@@ -49,7 +49,7 @@ const router = createBrowserRouter([
   {
     path:"Weather",
     element: <Weather/>,
-  },
+  }
   ,
   {
     path:"Ingredient",

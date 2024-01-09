@@ -1,9 +1,11 @@
 import React from 'react';
 import './Ingredient.css';
-
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 const Weather= () => {
  return (
     <div className="App">
+      <Navbar></Navbar>
       <h1>Recommendations with Weather API</h1>
       <h3>Adapting Skincare to Your Climate: Your Weather-Infused Guide to Radiant Skin!</h3>
       <p>Introducing our Weather API Recommendation Tool — a game-changer in personalized skincare.
@@ -51,7 +53,7 @@ const Weather= () => {
           
       </div>
       </div>
-
+    <Footer></Footer>
     </div>
  );
 }

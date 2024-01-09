@@ -48,7 +48,7 @@ function Signup() {
               </div>
             </div>
             <br></br>
-            <Link to="/createSkinProfile">
+            <Link to="/SkinProfileCreation">
   <button className="btn">Sign Up</button>
 </Link>
           </form>

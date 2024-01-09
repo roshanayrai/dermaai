@@ -2,7 +2,8 @@ import React from 'react';
 import './SkinProfileCreation.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
+import SkinProfileCreation2 from './SkinProfileCreation2';
+
 function SkinProfileCreation() {
     return (
         <div>
@@ -26,23 +27,6 @@ function SkinProfileCreation() {
                             <p>Environmental Factors</p>
                         </li>
                     </ul>
-                </div>
-
-                <div className="form-step-1 active">
-                    <div className="input-container">
-                        <label className="form-label" for="skinType">Q. How would you describe your overall skin type? (e.g., oily, dry, combination)</label>
-                        <textarea className="form-input" rows="4"></textarea>
-                    </div>
-                    
-                    <div className="input-container">
-                        <label className="form-label" for="sensitivity">Q. Do you have sensitive skin, and if so, are there specific ingredients or products that tend to trigger reactions?</label>
-                        <textarea className="form-input" rows="4"></textarea>
-                    </div>
-                    
-                    <div className="input-container">
-                        <label className="form-label" for="irritations">Q. Have you experienced any recent skin irritations or allergic reactions?</label>
-                        <textarea className="form-input" rows="4"></textarea>
-                    </div>
                 </div>
 
                 <div className="form-step-2">
@@ -81,40 +65,9 @@ function SkinProfileCreation() {
                         <textarea className="form-input" rows="4"></textarea>
                     </div>
                 </div>
-                
-                <div className="form-step-3">
-                    <div className="input-flex">
-                        <div>
-                            <label className="form-label" for="selectCountry">Q. Select your country</label>
-                            <select className="form-input" id="selectCountry" name="selectCountry">
-                                <option className="country1">Country 1</option>
-                                <option className="country2">Country 2</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label className="form-label" for="selectCity">Q. Select your city</label>
-                            <select className="form-input" id="selectCity" name="selectCity">
-                                <option className="city1">City 1</option>
-                                <option className="city2">City 2</option>
-                            </select>
-                        </div>
-                    </div>
-
-                   <div className="input-container">
-                        <label className="form-label" for="timeinsun">Q. How much time do you spend in the sun, and do you take any precautions, such as wearing hats or sunglasses?</label>
-                        <textarea className="form-input" rows="4"></textarea>
-                    </div>
-
-                    <div className="input-container">
-                        <label className="form-label" for="sunburn">Q. Have you ever experienced sunburn or sun damage?</label>
-                        <textarea className="form-input" rows="4"></textarea>
-                    </div>
-                </div>       
-
                 <div className="form-btn-wrapper">
                     <div className="button-container">
-                        <Link to ="/SkinProfileCreation2"><button className="btn">Next</button></Link>
+                       <button className="btn">Next</button>
                     </div>
                 </div>
 

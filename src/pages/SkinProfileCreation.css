@@ -9,6 +9,14 @@
     margin: 60px 150px;
 }
 
+h2 {
+    color: #42553A;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .steps {
     display: flex;
     align-items: center;
@@ -75,6 +83,7 @@
 
 .steps li.completed {
     color: #5D975D;
+    border: none;
 }
 
 .steps li.completed span::before {
@@ -142,8 +151,8 @@
 }
 
 .form-input {
-    width: 100%;
-    padding: 13px 22px;
+    width: 92%;
+    padding: 13px 26px;
     border-radius: 5px;
     border: 1px solid #DDE3EC;
     background: #FFFFFF;
@@ -191,8 +200,7 @@
 }
 
 .btn{
-    display: inline-block;
-    gap: 5px;
+    display: block;
     font-size: 16px;
     padding: 6px 120px;
     font-weight: 500;
@@ -200,7 +208,6 @@
     margin: 0 auto;
     background-color: #355334;
     color: white;
-    margin-bottom: 30px;
 }
 
 .btn:hover {
@@ -210,7 +217,7 @@
 }
 
 .input-container {
-    width: 100%;
+    width: 80%;
     margin-bottom: 30px;
 }
 

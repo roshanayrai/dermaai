@@ -16,6 +16,7 @@ import SkinProfileCreation from './pages/SkinProfileCreation';
 import Weather from './pages/Weather';
 import SkinIT from './pages/SkinI&T';
 import Ingredient from './pages/Ingredient';
+import WeatherAPI from './components/WeatherAPI';
 const router = createBrowserRouter([
   {
   path:"/",
@@ -54,6 +55,11 @@ const router = createBrowserRouter([
   {
     path:"Ingredient",
     element: <Ingredient/>,
+  }
+  ,
+  {
+    path:"WeatherAPI",
+    element: <WeatherAPI/>,
   }
 ]);
 

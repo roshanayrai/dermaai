@@ -2,7 +2,7 @@ import React from 'react';
 import './Ingredient.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import WeatherAPI from './components/WeatherAPI';
+import WeatherAPI from '../components/WeatherAPI';
 const Weather= () => {
  return (
     <div className="Weather">

@@ -4,8 +4,9 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 function SkinIT() {
  return (
-    <div className="App">
+    <div className="SkinIT">
       <Navbar></Navbar>
+      <div className="tools">
       <h1>Skin Issue Identification Tool</h1>
       <h3>Elevate Your Skin Journey: Precision Diagnosis, Personalized Solutions, Radiant Results!</h3>
       <p>Embark on a journey of self-discovery with our Skin Issue Identification Tool, where precision 
@@ -61,6 +62,7 @@ function SkinIT() {
       <div className="login">
       <div className="login-container">
           <button type="submit">Start Diagnosing!</button>
+      </div>
       </div>
       </div>
      <Footer></Footer>

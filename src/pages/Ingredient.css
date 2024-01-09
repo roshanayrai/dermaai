@@ -1,19 +1,18 @@
 body {
   font-family: Arial, sans-serif;
   background-color:#E1F2E5;
+  
  } 
-.App {
-  text-align: left;
-  padding: 30px;
- }
- 
+.tools{
+  padding: 100px;
+}
 h1 {
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   color:#42553A;
 }
 h3 {
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   color:#546E50;
 }
 

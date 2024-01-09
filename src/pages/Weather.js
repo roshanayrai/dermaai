@@ -4,8 +4,9 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 const Weather= () => {
  return (
-    <div className="App">
+    <div className="Weather">
       <Navbar></Navbar>
+      <div className="tools">
       <h1>Recommendations with Weather API</h1>
       <h3>Adapting Skincare to Your Climate: Your Weather-Infused Guide to Radiant Skin!</h3>
       <p>Introducing our Weather API Recommendation Tool — a game-changer in personalized skincare.
@@ -51,6 +52,7 @@ const Weather= () => {
           <br></br>
           <button type="submit">Generate Recommendations</button>
           
+      </div>
       </div>
       </div>
     <Footer></Footer>

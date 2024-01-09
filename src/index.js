@@ -13,7 +13,6 @@ import {
   Router,
 } from "react-router-dom";
 import SkinProfileCreation from './pages/SkinProfileCreation';
-import SkinProfileCreation2 from './pages/SkinProfileCreation2';
 import Weather from './pages/Weather';
 import SkinIT from './pages/SkinI&T';
 import Ingredient from './pages/Ingredient';
@@ -50,16 +49,11 @@ const router = createBrowserRouter([
   {
     path:"Weather",
     element: <Weather/>,
-  },
+  }
   ,
   {
     path:"Ingredient",
     element: <Ingredient/>,
-  }
-  ,
-  {
-    path:"SkinProfileCreation2",
-    element: <SkinProfileCreation2/>,
   }
 ]);
 

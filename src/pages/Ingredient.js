@@ -4,8 +4,9 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 function Ingredient() {
  return (
-    <div className="App">
+    <div className="Ingredient">
       <Navbar></Navbar>
+      <div className="tools">
       <h1>Ingredient Analysis</h1>
       <h3>Empower Your Skincare Choices: A Deep Dive into Ingredients for Healthier, Happier Skin!</h3>
       <p>Embark on a transformative journey towards healthier, happier skin with our revolutionary
@@ -67,6 +68,7 @@ function Ingredient() {
           <button type="submit">Start Analysis with OCR</button>
           <text>OR</text>
           <button type="submit">Start Analysis with Manual Entry</button>
+      </div>
       </div>
       </div>
      <Footer></Footer>

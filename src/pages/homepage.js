@@ -4,10 +4,10 @@ import "./Homepage.css"
 import Navbar from '../components/Navbar';
 import Signup from './Signup';
 import Footer from '../components/Footer';
-import {Link} from 'react-router-dom';
-import Ingredient from '../pages/Ingredient';
-import SkinIT from '../pages/SkinI&T';
-import Weather from '../pages/Weather';
+import Ingredient from './Ingredient';
+import SkinIT from './SkinI&T';
+import Weather from './Weather';
+
 const Homepage = () =>{
     return(
         <>

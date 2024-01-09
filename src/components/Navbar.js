@@ -3,6 +3,9 @@ import "./Navbar.css"
 import {Link} from 'react-router-dom';
 import Login from '../pages/Login';
 import Homepage from '../pages/Homepage';
+import Ingredient from '../pages/Ingredient';
+import SkinIT from '../pages/SkinI&T';
+import Weather from '../pages/Weather';
 
 const Navbar = () =>{
   return (
@@ -13,9 +16,9 @@ const Navbar = () =>{
         <div class="dropdown">
           <li><a href="#">Tools</a></li>
           <div class="dropdown-content">
-            <a href="#">Skin Issue Identification</a>
-            <a href="#">Ingredient Analysis</a>
-            <a href="#">Weather API Recommendation</a>
+          <Link to="/SkinIT">Skin Issue Identification</Link>
+            <Link to="/Ingredient">Ingredient Analysis</Link>
+            <Link to="/Weather">Weather API Recommendation</Link>
           </div>
         </div>
         <li><a href="#">News/Blogs</a></li>

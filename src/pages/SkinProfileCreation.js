@@ -1,10 +1,11 @@
 import React from 'react';
 import './SkinProfileCreation.css';
 import Navbar from '../components/Navbar';
-
-function createSkinProfile() {
+import Footer from '../components/Footer';
+function SkinProfileCreation() {
     return (
         <div class="main-container">
+            <Navbar></Navbar>
             <form action="" method="POST">
                 <div class="steps steps-horizontal">
                     <ul>
@@ -114,8 +115,9 @@ function createSkinProfile() {
                 </div>
 
             </form>
+            <Footer></Footer>
         </div>
     );
    }
    
-export default createSkinProfile;   
+export default SkinProfileCreation;   

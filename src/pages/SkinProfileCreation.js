@@ -1,9 +1,9 @@
 import React from 'react';
 import './SkinProfileCreation.css';
+import Navbar from '../components/Navbar';
 
 function createSkinProfile() {
     return (
-
         <div class="main-container">
             <form action="" method="POST">
                 <div class="steps steps-horizontal">
@@ -82,8 +82,8 @@ function createSkinProfile() {
                         <div>
                             <label class="form-label" for="selectCountry">Q. Select your country</label>
                             <select class="form-input" id="selectCountry" name="selectCountry">
-                                <option value="city1">Country 1</option>
-                                <option value="city2">Country 2</option>
+                                <option value="country1">Country 1</option>
+                                <option value="country2">Country 2</option>
                             </select>
                         </div>
 

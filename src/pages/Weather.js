@@ -1,7 +1,7 @@
 import React from 'react';
 import './Ingredient.css';
 
-function Weather() {
+const Weather= () => {
  return (
     <div className="App">
       <h1>Recommendations with Weather API</h1>

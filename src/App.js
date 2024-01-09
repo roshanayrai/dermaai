@@ -1,6 +1,6 @@
 import './App.css';
 import Homepage from './pages/Homepage';  
-import SkinProfileCreation from './pages/SkinProfileCreation';
+import Weather from './pages/Weather';
 function App() {
   return (
     <div className="App">

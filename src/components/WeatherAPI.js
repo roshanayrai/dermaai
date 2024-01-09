@@ -1,8 +1,6 @@
-// src/components/WeatherAPI.js
-
 import React, { useState } from 'react';
 import axios from 'axios';
-
+import './WeatherAPI.css';
 const WeatherAPI = () => {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState(null);
@@ -24,8 +22,7 @@ const WeatherAPI = () => {
   };
 
   return (
-    <div>
-      <h2>Weather App</h2>
+    <div className='WeatherAPI'>
       <input
         type="text"
         placeholder="Enter city name"

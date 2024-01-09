@@ -2,12 +2,12 @@ import React from 'react';
 import './Ingredient.css';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import WeatherAPI from './components/WeatherAPI';
+import WeatherAPI from '../components/WeatherAPI';
 const Weather= () => {
  return (
     <div className="Weather">
       <Navbar></Navbar>
-      <WeatherAPI><WeatherAPI/>
+      <WeatherAPI></WeatherAPI>
       <div className="tools">
       <h1>Recommendations with Weather API</h1>
       <h3>Adapting Skincare to Your Climate: Your Weather-Infused Guide to Radiant Skin!</h3>

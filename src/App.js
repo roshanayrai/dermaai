@@ -1,14 +1,10 @@
 import './App.css';
-import Navbar from "./components/Navbar";
-import Homepage from "./pages/SkinProfileCreation";
-import Footer from './components/Footer';
+import Homepage from './pages/homepage';
 
 function App() {
     return (
       <div className="App">
-      
-            <Homepage></Homepage>
-      
+        <Homepage></Homepage>
       </div>
     );
   }

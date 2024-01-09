@@ -22,7 +22,7 @@ const Homepage = () =>{
          </div>
          <div className="registernow"><button className="button">Register Now</button></div>
          </div>
-        
+         
         <div className="section3">
         <div className='section3img'>
          <img src="homepage2.png" />

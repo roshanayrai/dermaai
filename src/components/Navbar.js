@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom';
 
 const Navbar = () =>{
   return (
-      <Navbar>
-      <img src="C:\Users\hp\Documents\GitHub\dermaai\public\logo.png" class="logo"/>
-      <ul>
+      <div className='nav'>
+      <img src="logo.png" class="logo"/>
+      <ul className='menu'>
         <li><a href="#">About Us</a></li>
         <div class="dropdown">
           <li><a href="#">Tools</a></li>
@@ -19,7 +19,7 @@ const Navbar = () =>{
         <li><a href="#">News/Blogs</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
-      <img src="C:\Users\hp\Documents\GitHub\dermaai\public\pficon.png" class="pficon" onclick="toggleMenu()"/>
+      <img src="pficon.png" class="pficon" onclick="toggleMenu()"/>
 
       <div class="sub-menu-wrap" id="subMenu">
           <div class="sub-menu">
@@ -51,7 +51,7 @@ const Navbar = () =>{
               </a>
           </div>
       </div>
-    </Navbar>
+    </div>
   )};
 
 

@@ -12,8 +12,7 @@ const Homepage = () =>{
             <h1>Get answers to your skin condition questions with DermaAI</h1>
             <p>Aysa is the easy-to-use app for concerns about common skin conditions. Powered by VisualDx, Aysa provides personalized guidance and helpful information to aid in your discussion with your healthcare provider.</p>
          </div>
-         <div className='section1img'>
-         <img src="homepage1.png" />
+         <div className='section1img'><img src="homepage1.png" />
          </div>
         </div>
         <div className="section2">

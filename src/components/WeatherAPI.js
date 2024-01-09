@@ -25,7 +25,6 @@ const WeatherAPI = () => {
 
   return (
     <div>
-      <h2>Weather App</h2>
       <input
         type="text"
         placeholder="Enter city name"

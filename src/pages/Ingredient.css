@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:#E1F2E5;
+ } 
+.App {
+  text-align: left;
+  padding: 30px;
+ }
+ 
+h1 {
+  font-family: poppins;
+  font-style: normal;
+  color:#42553A;
+}
+h3 {
+  font-family: poppins;
+  color:#546E50;
+}
+
+.login-container {
+  width: 400px;
+  margin: 0 auto;
+}
+ 
+.login-container text {
+  display: block;
+  text-align: center;
+  padding:15px;
+}
+ 
+.login-container button {
+  width: 96%;
+  padding: 10px;
+  background-color: #355334;
+  color: white;
+  font-family: poppins;
+  font-size:large;
+  border: none;
+  cursor: pointer;
+}
+ 

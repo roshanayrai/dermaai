@@ -1,6 +1,7 @@
 import React from 'react';
 import './Login.css';
 import Navbar from '../components/Navbar';
+import Signup from './Signup';
 import Footer from '../components/Footer';
 import {Link} from 'react-router-dom';
 function Login() {
@@ -30,7 +31,7 @@ function Login() {
       <br></br>
       <br></br>
       </div>
-    
+     <Footer></Footer>    
     </div>
  );
 }

@@ -1,9 +1,12 @@
 .footer {
-    background: url('fC:\Users\dell\dermaai\public\footer.png') center/cover;
+    background: url('C:\Users\dell\dermaai\public\footer.png') center/cover;
     padding-bottom: 20px;
     text-align: center;
 }
 
+.navbar-container{
+    padding-top: 20px;
+}
 .subscribe {
     margin-top: 10px; /* Adjust spacing as needed */
 }

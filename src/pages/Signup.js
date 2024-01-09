@@ -1,7 +1,9 @@
 import React from 'react';
 import './Signup.css';
 import Navbar from '../components/Navbar';
-
+import Footer from '../components/Footer';
+import createSkinProfile from './SkinProfileCreation';
+import {Link} from 'react-router-dom';
 function Signup() {
  return (
   <div className="Signup">
@@ -46,10 +48,11 @@ function Signup() {
         </div>
         </div>
         <br></br>
-        <button type="submit">Sign In</button>
+        <Link to="/createSkinProfile"><button type="submit">Sign In</button></Link>
       </form>
     </div>
   </div>
+  <Footer></Footer>
 </div>
  );
 }

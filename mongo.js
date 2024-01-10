@@ -1,8 +1,24 @@
-const mongoose=require("mongoose")
+const mongoose = require("mongoose")
 mongoose.connect("mongodb+srv://admin:123@cluster0.yarczpw.mongodb.net/")
-.then(()=>{
-    console.log("mongodb connected");
+    .then(() => {
+        console.log("mongodb connected");
+    })
+    .catch(() => {
+        console.log('failed');
+    })
+
+
+const newSchema = new mongoose.Schema({
+    email: {
+        type: String,
+        required: true
+    },
+    password: {
+        type: String,
+        required: true
+    }
 })
-.catch(()=>{
-    console.log('failed');
-})
+
+const collection = mongoose.model("collection", newSchema)
+
+module.exports = collection

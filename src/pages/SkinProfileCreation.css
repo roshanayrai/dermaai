@@ -83,7 +83,6 @@ h2 {
 
 .steps li.completed {
     color: #5D975D;
-    border: none;
 }
 
 .steps li.completed span::before {
@@ -151,8 +150,8 @@ h2 {
 }
 
 .form-input {
-    width: 92%;
-    padding: 13px 26px;
+    width: 100%;
+    padding: 13px 22px;
     border-radius: 5px;
     border: 1px solid #DDE3EC;
     background: #FFFFFF;
@@ -200,7 +199,8 @@ h2 {
 }
 
 .btn{
-    display: block;
+    display: inline-block;
+    gap: 5px;
     font-size: 16px;
     padding: 6px 120px;
     font-weight: 500;
@@ -208,6 +208,7 @@ h2 {
     margin: 0 auto;
     background-color: #355334;
     color: white;
+    margin-bottom: 30px;
 }
 
 .btn:hover {
@@ -217,12 +218,12 @@ h2 {
 }
 
 .input-container {
-    width: 80%;
+    width: 100%;
     margin-bottom: 30px;
 }
 
 .input-container textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px 22px;
     border-radius: 10px;
     border: 1px solid #DDE3EC;
